@@ -190,3 +190,7 @@ logs
 
 # macOS
 .DS_Store
+paper/
+doc/
+results/
+results_*/

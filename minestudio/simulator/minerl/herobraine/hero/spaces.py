@@ -486,7 +486,7 @@ class Text(MineRLSpace):
     MAX_STR_LEN = 100
 
     def __init__(self, shape):
-        super().__init__(shape, np.unicode_)
+        super().__init__(shape, np.str_)
 
     def sample(self):
         total_strings = int(math.floor(np.prod(self.shape)))
